@@ -1,0 +1,37 @@
+ShadCN UI
+
+- cool because you have complete ownership of the component 
+- can use and modify and add your own variants coz the css has already been provided to you
+
+
+Routing Concepts
+
+- the app folder is a special reserved folder in Next.js which is used for routing 
+- page is a reserved filenes which tells next.js that this is a file we want to show to the client  - app/foo.tsx wont be a valid route
+- if we don't have a default export in page.tsx then it wont be recognized as a valid component
+- if you want to create another valid client route then you have to create a folder within app and then have a page.tsx inside it. For example:
+    1. app/folder/page.tsx => localhost:3000/folder
+    2. app/folder/onemorefolder/page.tsx => localhost:3000/folder/onemorefolder
+
+- but if you change the folder naming to (auth) from auth for example
+    1. app/(auth)/login => localhost:3000/login
+
+- 'route' is a reserved filename for creating API routes - put all routes in a route.ts file
+- layout renders your actual content in the HTML structure
+    1. we can also create our own layouts
+    2. this is useful when we want certain routes to have certain layouts - like auth/login should maybe not have an account navbar whereas some other route should
+
+- server components
+    1. backend behaviour
+    2. database access
+    3. server cache
+    4. streaming
+    5. partial rendering
+    6. seo
+    7. initial page load
+
+- client components
+    1. frontend behaviour
+    2. useEffect
+    3. useState
+    4. onClick

@@ -35,3 +35,12 @@ Routing Concepts
     2. useEffect
     3. useState
     4. onClick
+
+5. _ before a folder name means it is reserved - it won matter if you have a page.tsx => next.js wont put this folder in the routing system
+
+
+6. you can requst a specific subdomain on localtunel using: lt --port 3000 --subdomain pink
+
+7. the purpose of the clerk webhooks is to ensure that only those users who have been authenticated can access information from the database  - done using clerk and svix
+    a. otherwise anyone without the right headers, svix id etc, can access that data
+    b. so we check if te user triggering the endpoint doesn't haave the svix and id and headers, then we throw an error

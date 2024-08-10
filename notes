@@ -44,3 +44,5 @@ Routing Concepts
 7. the purpose of the clerk webhooks is to ensure that only those users who have been authenticated can access information from the database  - done using clerk and svix
     a. otherwise anyone without the right headers, svix id etc, can access that data
     b. so we check if te user triggering the endpoint doesn't haave the svix and id and headers, then we throw an error
+
+6. all components created inside app folder are server componenets by default. they need to specified othersie if you want them to be client components

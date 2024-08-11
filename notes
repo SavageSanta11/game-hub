@@ -45,4 +45,11 @@ Routing Concepts
     a. otherwise anyone without the right headers, svix id etc, can access that data
     b. so we check if te user triggering the endpoint doesn't haave the svix and id and headers, then we throw an error
 
-6. all components created inside app folder are server componenets by default. they need to specified othersie if you want them to be client components
+8. all components created inside app folder are server componenets by default. they need to specified othersie if you want them to be client components
+
+9. Skeleton components are used for showing placeholders while the actual components are loading - Skeleton screens improve perceived performance by making users feel like something is happening in the background. Rather than showing a blank screen, skeleton screens reduce the perception of long loading times for image-heavy web pages.
+    a. Sidebarskeleton is shown while getrecoommended loads recommended users
+    b. ToggleSkeleton is just to handle the server side rendering stuff
+    c. More information - https://www.joshwcomeau.com/react/the-perils-of-rehydration/
+
+

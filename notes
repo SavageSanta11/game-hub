@@ -52,4 +52,6 @@ Routing Concepts
     b. ToggleSkeleton is just to handle the server side rendering stuff
     c. More information - https://www.joshwcomeau.com/react/the-perils-of-rehydration/
 
+10. [username] tells th router that this is a dynamic part of the url - it is not hardcoded 
 
+11. learn about server components in react. next.js is specifically optimized for server components. 

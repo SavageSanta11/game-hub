@@ -11,7 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^5.2.6",
     "@clerk/themes": "^2.1.16",
-    "@prisma/client": "^5.17.0",
+    "@prisma/client": "^5.18.0",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "@radix-ui/react-tooltip": "^1.1.2",
@@ -24,6 +24,7 @@
     "query-string": "^9.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sonner": "^1.5.0",
     "svix": "^1.29.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
@@ -37,7 +38,6 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
-    "prisma": "^5.17.0",
     "react-devtools-core": "^5.3.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"

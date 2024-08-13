@@ -55,3 +55,4 @@ Routing Concepts
 10. [username] tells th router that this is a dynamic part of the url - it is not hardcoded 
 
 11. learn about server components in react. next.js is specifically optimized for server components. 
+12. we can refresh server componenets so that they instantly have the newest data
